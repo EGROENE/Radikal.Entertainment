@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+
+    <!--LINK TO STYLESHEET-->
+    <link rel="stylesheet" href="../styling.css">
+
+    <!--LINK TO 'Gochi Hand' FONT FOR LOGO & HEADER TEXTS-->
+    <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap" rel="stylesheet">
+
+    <!--LINK TO 'PT Sans' GOOGLE FONT FOR BODY TEXT-->
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+
+    <!--LINK TO FONTAWESOME KIT-->
+    <script src="https://kit.fontawesome.com/5f2ab24bd1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav id="top-nav">
+        <ul type="none" class="header-nav">
+            <li>
+                <a href="../index.html">Home</a>
+            </li>
+            <li>
+                <a href="./my.profile.html">Profile</a>
+            </li>
+            <li>
+                <a href="./music.html">Music</a>
+            </li>
+            <li>
+                <a href="./video.html">Video</a>
+            </li>
+            <li>
+                <a href="./gift.cards.html">Gift Cards</a>
+            </li>
+        </ul>
+        <div class="logo-header">
+            <p>RADIKAL ENTERTAINMENT</p>
+            <span><i class="fas fa-heartbeat"></i></span>
+        </div>
+    </nav>
+    <section class="contact-sect1">
+        <div class="centered-page-headers">
+            <header>Have something to say to us? We'd love to hear from you. Contact us by phone or email or submit a request below. We'll get back with you within 24 hours.</header>
+        </div>
+        <div class="contact-sect1-parts">
+            <div class="email-phone">
+                <div><i class="fas fa-phone"></i>+1 123.456.7890</div>
+                <div><i class="fas fa-at"></i>support@radikal.entertainment.com</div>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook-square"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-telegram-plane"></i></a>
+                </div>
+            </div>
+            <div>
+                <form action="#" method="post">
+                    <div class="names">
+                        <div>
+                            <label for="name">Name: </label>
+                            <input type="text" name="name" id="name" placeholder="ex: Joe Schmoe" required>
+                        </div>
+                        <div>
+                            <label for="username">Username (subscribers only): </label>
+                            <input type="text" name="username" id="username" placeholder="ex: @boatymcboatface99">
+                        </div>
+                    </div>
+                    <div class="normal-field">
+                        <label for="problem-category">What can we help you with?</label>
+                        <select name="problem-category" id="problem-category">
+                            <option value="tech-difficulties">Technical difficulties</option>
+                            <option value="plan-questions">Question about my plan</option>
+                            <option value="refund-request">Request a refund</option>
+                            <option value="other">Something else</option>
+                        </select>
+                    </div>
+                    <div class="sub-yes-no">
+                        <div>
+                            <header>Are you a subscriber?</header>
+                            <label for="sub-yes">Yes</label>
+                            <input type="radio" name="sub" id="sub-yes">
+                            <label for="sub-no">No</label>
+                            <input type="radio" name="sub" id="sub-no">
+                        </div>
+                        <div>
+                            <label for="sub-number">Sub number (subs only): </label>
+                            <input type="text" name="sub-number" id="sub-number" placeholder="ex: 666666">
+                        </div>
+                    </div>
+                    <div class="plan-type">
+                        <header>What type of plan do you have?</header>
+                        <div>
+                            <label for="plan-type-basic">Basic</label>
+                            <input type="radio" name="plan-type" id="plan-type-basic">
+                            <label for="plan-type-sublime">Sublime</label>
+                            <input type="radio" name="plan-type" id="plan-type-sublime">
+                            <label for="plan-type-supreme">Supreme</label>
+                            <input type="radio" name="plan-type" id="plan-type-supreme">
+                        </div>
+                    </div>
+                    <div class="normal-field">
+                        <label for="issue-description">Please describe your issue in detail:</label>
+                        <textarea name="issue-description" id="issue-description" cols="50" rows="10" placeholder="Start typing here" maxlength="2000"></textarea>
+                    </div>
+                    <div>
+                        <button type="submit">Submit request</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div>
+            <header>Shop & Learn</header>
+            <a href="./music.html">Music</a>
+            <a href="#">Movies</a>
+            <a href="#">Shows</a>
+            <a href="#">Apps</a>
+            <a href="./memberships.html">Memberships</a>
+            <a href="./gift.cards.html">Gift Cards</a>
+        </div>
+        <div>
+            <header>Radikal Store<sup>TM</sup></header>
+            <a href="#">Find a Store</a>
+            <a href="#">Today at Radikal</a>
+            <a href="#">Rad Kamp</a>
+            <a href="#">Financing</a>
+            <a href="#">Order Status</a>
+        </div>
+        <div>
+            <header>Education & Business</header>
+            <a href="#">Radikal & Education</a>
+            <a href="#">Shop for College</a>
+            <a href="#">Radikal & Business</a>
+            <a href="#">Shop for Business</a>
+            <a href="#">Jobs</a>
+        </div>
+        <div>
+            <header>About Radikal Entertainment</header>
+            <a href="#">Newsroom</a>
+            <a href="#">Leadership at Radikal</a>
+            <a href="#">Investors</a>
+            <a href="#">Events</a>
+            <a href="./contact.html">Contact Us</a>
+        </div>
+    </footer>
+    <footer class="copyright-footer">
+        <p>&copy;2021, RADIKAL ENTERTAINMENT, LLC</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,1119 @@
+/* VARIABLES */
+:root {
+    --lightblue: aquamarine;
+    --gray-gradient: linear-gradient(to bottom, black, gray);
+}
+
+/* DEFAULTS */
+body {
+    margin: 0;
+    font-family: 'PT Sans', sans-serif;
+    color: white;
+}
+
+h1 {
+    border: 8px solid white;
+    color: var(--lightblue);
+    padding: 5px;
+    font-family: 'Gochi Hand', cursive;
+    letter-spacing: 10px;
+    font-size: 50px;
+}
+
+#top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(32, 32, 32);
+    width: 100%;
+    max-width: 100%;
+}
+
+#top-nav ul {    
+    margin: 0;
+    padding: 10px;
+}
+
+.header-nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+
+/*
+.header-nav li {
+    align-items:center;
+    display: flex;
+}
+*/
+
+.header-nav a {
+    text-decoration: none;
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.header-nav a:hover {
+    background-color: rgb(73, 73, 73);
+    padding: 50px 30px;
+}
+
+/* STYLING OF LOGO IN TOP PAGE BAR */
+#top-nav div {
+    margin-right: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--lightblue);
+    font-family: 'Gochi Hand', cursive;
+    font-size: 30px;
+    letter-spacing: 4px;
+}
+
+#top-nav div p {
+    margin-right: 10px;
+}
+/* END STYLING OF LOGO IN TOP PAGE BAR */
+
+.centered-page-headers {
+    text-align: center;
+    font-weight: 800;
+    font-size: 30px;
+    padding: 50px 150px;
+    background: var(--lightblue);
+    font-family: 'Gochi Hand', cursive;
+    color: black;
+}
+
+.gray-background {   
+    background: var(--gray-gradient);
+}
+
+form button {
+    width: 100%;
+    max-width: 100%;
+    font-family: 'PT Sans', cursive;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 10px;
+}
+
+form button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+select {
+    font-family: 'PT Sans', sans-serif;
+}
+
+form div {
+    margin-bottom: 10px;
+}
+
+form div:last-child {
+    margin-bottom: 0;
+}
+
+footer {
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    padding: 30px;
+    text-align: center;
+}
+
+footer div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer header {
+    font-size: 20px;
+    border-bottom: 1px solid white;
+    margin-bottom: 10px;
+}
+
+footer sup {
+    font-size: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    background-color: gray;
+    color: black;
+    padding: 2px;
+}
+
+.copyright-footer {
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.copyright-footer p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+/* END DEFAULTS */
+
+/* BEGIN STYLING OF index.html */
+.sect1 {
+    width: 100%;
+    max-width: 100%;
+    background: url(https://jolly-kalam-23776e.netlify.app/mytunes/img/showcase.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.sect1 div {
+    padding: 150px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.sect1 h2 {
+    font-size: 30px;
+    background-color: rgba(0,0,0,0.5);
+    letter-spacing: 3px;
+}
+
+.sect1 p {
+    font-size: 25px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.sect2 {
+    background: var(--gray-gradient);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px 100px
+}
+
+.sect2 div, .sect3 div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.sect2 div h3 {
+    margin-left: 5px;
+}
+
+.sect2 header, .sect3 header, .sect4 header {
+    font-size: 25px;
+}
+
+.sect2 p, .sect3 p, .sect4 p {
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.sect2 button, .sect3 button {
+    padding: 20px 10px;
+    border-radius: 10px;
+    background-color: var(--lightblue);
+    color: black;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+}
+
+.sect2 button:hover {
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+.sect3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: radial-gradient(white 30%, gray);
+    color: black;
+    padding: 10px 100px
+}
+
+.sect3 div h3 {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.sect3 button {
+    background-color: black;
+    color: white;
+}
+
+.sect3 button:hover {
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+}
+
+.sect4 {
+    background: url(https://jolly-kalam-23776e.netlify.app/mytunes/img/section-bg.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px 100px;
+}
+
+.sect4 header {
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+    padding: 10px;
+}
+
+.sect4 p {
+    background-color: rgba(10, 10, 10, 0.2);
+}
+/* END STYLING FOR index.html */
+
+/* BEGIN STYLING FOR my.profile.html */
+.profile-sect1 {
+    background: var(--lightblue);
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.profile-img-name {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.profile-img-name img {    
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.profile-name-text {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin-left: 15px;
+}
+
+.profile-name-text header {
+    font-size: 30px;
+}
+
+.profile-name-text p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: orange;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.change-pic-log-out-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 210px;
+}
+
+.change-pic-log-out-buttons p {
+    background-color: transparent;
+    text-transform: lowercase;
+}
+
+.change-pic-log-out-buttons a {
+    text-decoration: none;
+    color: black;
+}
+
+.change-pic-log-out-buttons a:hover {
+    color: orange;
+}
+
+.profile-page-header {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: 'Gochi Hand', cursive;
+}
+
+.profile-sect2 {
+    background: var(--gray-gradient);
+    display: flex;
+    justify-content: flex-start;
+    padding: 15px 0px;
+}
+
+.profile-info {
+    border-right: 2px solid white;
+    padding-right: 150px;
+    width: 33%;
+    padding: 30px;
+}
+
+.profile-info p {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-info a {
+    color: rgb(197, 197, 197);;
+    text-decoration: none;
+}
+
+.profile-info a:hover {
+    color: orange;
+}
+
+.profile-info span {
+    color: var(--lightblue); text-transform: uppercase;
+}
+
+.my-content {
+    width: 100%;
+    display: flex;
+    padding-left: 100px;
+}
+
+.my-content-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 50px;
+    row-gap: 75px;
+    justify-items: center;
+    align-content: center;
+    width: 100%;
+    max-width: 100%;
+}
+
+.my-content-container div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.my-content-container header {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: var(--lightblue);
+}
+
+.my-content-header {
+    text-decoration: none;
+}
+
+.my-content-header-link {
+    color: var(--lightblue);
+}
+
+.my-content-header-link:hover {
+    color: white;
+}
+
+.my-content div a {
+    text-decoration: none;
+    color: orange;
+}
+
+.my-content div a:hover {
+    color: white;
+}
+/* END STYLING FOR my.profile.html */
+
+/* BEGIN STYLING FOR music.html */
+.music-sect1 {
+    background: var(--gray-gradient);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+    padding: 25px;
+}
+
+.music-sect1 img, .video-sect1 img {
+    width: 100%;
+    max-width: 100%;
+    border: 1px solid orange;
+}
+/* END STYLING FOR music.html */
+
+/* BEGIN STYLING FOR video.html */
+.video-sect1 {
+    padding: 30px;
+    background: var(--gray-gradient);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+.memberships-sect1 header, .music-sect1 header, .video-sect1 header {
+    font-size: 30px;
+    color: var(--lightblue);
+}
+
+.music-sect1 p, .video-sect1 p {
+    line-height: 35px;
+}
+
+.music-sect1 div:first-child, .video-sect1 div:nth-child(1), .video-sect1 div:nth-child(4), .video-sect1 div:nth-child(5) {
+    display: flex;
+    align-items: center;
+}
+
+.music-sect1 div:nth-child(2), .video-sect1 div:nth-child(2), .video-sect1 div:nth-child(3), .video-sect1 div:nth-child(6) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.music-sect1 button, .video-sect1 button {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    text-transform: lowercase;
+    cursor: pointer;
+}
+
+.music-sect1 button:hover, .video-sect1 button:hover {
+    background-color: white;
+    color: black;
+}
+/* END STYLING FOR video.html */
+
+/* BEGIN STYLING FOR gift.cards.html */
+.gc-sect1 {
+    background: var(--gray-gradient);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.gc-sect1 img {
+    width: 454px;
+    height: 308px;
+}
+
+.gc-sect1 div {
+    text-align: center;
+    padding: 10px;
+}
+
+.gc-sect1 div header:first-child {
+    font-size: 25px;
+}
+
+.gc-sect1 a {
+    color: orange;
+    text-decoration: none;
+}
+
+.gc-sect1 a:hover {
+    color: var(--lightblue);
+}
+
+.gc-sect1 select, .gc-sect1 select option {
+    background: var(--lightblue);
+    color: black;
+    padding: 5px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.gc-type {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.gc-type input {
+    cursor: pointer;
+}
+
+.gc-sect1 button {
+    margin-bottom: 10px;
+    background-color: orange;
+    color: white;
+}
+
+.gc-sect1 button:hover {
+    background: var(--lightblue);
+    color: black;
+}
+
+.redeem-gc button {
+    background: var(--lightblue);
+    color: black;
+}
+
+.redeem-gc button:hover {
+    background-color: orange;
+    color: white;
+}
+/* END STYLING FOR gift.cards.html */
+
+/* BEGIN STYLING FOR memberships.html */
+.memberships-sect1 {
+    background: var(--gray-gradient);
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+}
+
+.membership-card {
+    text-align: center;
+    border: 1px solid orangered;
+    box-shadow: 0 0 15px rgb(255 69 0);
+    padding: 16px;
+}
+
+.membership-card header {
+    font-family: 'Gochi Hand', cursive;
+}
+
+.membership-card ul {
+    list-style-type:square;
+    text-align: left;
+}
+
+.membership-card button {
+    width: 75%;
+    max-width: 90%;
+    background: var(--lightblue);
+    border: 0;
+    padding: 10px;
+    color: black;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    border-radius: 10px;
+}
+
+.membership-card button:hover {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+    padding: 8px;
+}
+
+.membership-card.featured {
+    margin-top: -25px;
+    margin-bottom: -25px;
+}
+
+.membership-card.featured button {
+    margin-top: 50px;
+}
+/* END STYLING FOR memberships.html */
+
+/* START STYLING FOR contact.html */
+.contact-sect1 {
+    color: black;
+}
+
+.contact-sect1-parts {
+    background: var(--gray-gradient);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 30px;
+}
+
+.contact-sect1-parts i {
+    margin-right: 20px;
+}
+
+.email-phone{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    /* text-align: left; */
+    width: 40%;
+}
+
+.email-phone div {
+    margin-bottom: 50px;
+}
+
+.email-phone div:last-child {
+    margin-bottom: 0;
+}
+
+.social-icons {
+    display: flex;
+}
+
+.social-icons i {
+    font-size: 20px;
+    color: var(--lightblue);
+}
+
+.social-icons i:hover {
+    color: orange;
+}
+
+.names div {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.names div:first-child {
+    margin-right: 30px;
+}
+
+.normal-field {
+    display: flex;
+    flex-direction: column;
+}
+
+.sub-yes-no {
+    display: flex;
+}
+
+.sub-yes-no header, .plan-type header {
+    margin-right: 15px;
+}
+
+.sub-yes-no div:first-child {
+    margin-right: 20px;
+}
+
+.plan-type {
+    display: flex;
+}
+/* END STYLING FOR contact.html */
+
+/* BEGIN MEDIA QUERIES */
+@media all and (min-width: 1440px) {
+    .music-sect1 {
+        background: var(--gray-gradient);
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 60px;
+        padding: 90px;
+    }
+
+    .gc-sect1 {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .contact-sect1-parts {    
+        padding-top: 50px;
+        padding-bottom: 50px;
+}
+
+    footer {
+        padding: 60px;
+    }
+
+    .copyright-footer {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+@media all and (max-width: 768px) {
+/* BEGIN index.html STYLING */
+    #top-nav {
+        flex-direction: column-reverse;
+    }
+    
+    #top-nav div {
+        margin-right: 0;
+    }
+    
+    .header-nav {
+        width: 100%;
+    }
+    
+    .header-nav a:hover {
+        padding: 15px 25px
+    }
+    
+    .sect1 div {
+        padding: 100px 50px;
+    }
+
+    .sect2 img {
+        width: 100%;
+        max-width: 100%;
+        height: 457px;    
+    }
+/* END index.html STYLING */
+
+/* BEGIN music.html STYLING */
+    .music-sect1 img {
+        width: 350px;
+        max-width: 100%;
+    }
+/* END music.html STYLING */
+
+/* BEGIN my.profile.html STYLING */
+    .my-content {
+        padding-left: 50px;
+    }
+/* END my.profile.html STYLING */
+
+/* BEGIN memberships.html STYLING */
+    .memberships-sect1 {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .membership-card.featured {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .membership-card.featured button {
+        margin-top: 0;
+    }
+/* END memberships.html STYLING */
+
+/* BEGIN contact.html STYLING */
+    .contact-sect1-headers {
+        padding: 25px 100px;
+    }
+
+    .contact-sect1-parts {
+        flex-direction: column;
+    }
+
+    .email-phone {
+        width: 100%;
+        flex-direction: row;
+    }
+
+    .email-phone div {
+        margin-bottom: 25px;
+        margin-right: 40px;
+    }
+
+    .email-phone div:last-child {
+        margin-right: 0;
+    }
+/* END contact.html STYLING */
+}
+
+@media all and (max-width: 425px) {
+/* START .index.html AND DEFAULT STYLING */
+    h1 {
+        font-size: 30px;
+    }
+
+    .header-nav a {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .centered-page-headers {
+        padding: 25px 25px;
+    }
+
+    .sect1 div {
+        padding: 60px 20px;
+    }
+
+    .sect1 h2 {
+        font-size: 25px;
+    }
+
+    .sect1 p {
+        font-size: 20px;
+    }
+
+    .sect2 p, .sect3 p, .sect4 p {
+        font-size: 18px;
+        line-height: 35px;
+    }
+
+    .sect2 {
+        padding: 10px 10px;
+    }
+
+    .sect2 button, .sect3 button {
+        padding: 15px 5px;
+        border: 2px solid white;
+        border-radius: 10px;
+        background-color: var(--lightblue);
+        color: black;
+        font-family: 'PT Sans', sans-serif;
+        font-size: 15px;
+    }
+
+    .sect2 img {
+        height: 254px;
+    }
+
+    .sect3 {
+        padding: 10px 10px;
+    }
+
+    .sect4 {
+        padding: 25px 25px;
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        column-gap: 25px;
+        padding: 10px;
+    }
+
+    footer div {
+        height: 183px;
+        justify-content: start;
+    }
+
+    footer header {
+        font-size: 17px;
+        margin-bottom: 5px;
+    }
+/* END .index.html AND DEFAULT STYLING */
+
+/* START .my.profile.html STYLING */
+    .profile-sect1 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .profile-page-header {
+        display: flex;
+        align-items: center;
+        margin-right: 0;
+        font-size: 40px;
+        text-transform: uppercase;
+        font-family: 'Gochi Hand', cursive;
+        margin-top: 10px;
+    }
+
+    .profile-sect2 {
+        flex-direction: column;
+        padding-left: 20px;
+    }
+
+    .profile-info {
+        padding: 0px;
+        border-right: none;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 135px;
+        margin-bottom: 15px;
+    }
+
+    .profile-info p {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .profile-img-name {
+        margin-left: 5px;
+    }
+
+    .my-content {
+        padding-left: 0;
+        padding-bottom: 10px;
+    }
+
+    .my-content-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .my-content-container div:nth-child(1) {
+        order: 1;
+    }
+    .my-content-container div:nth-child(2) {
+        order: 2;
+    }
+    .my-content-container div:nth-child(3) {
+        order: 5;
+    }
+    .my-content-container div:nth-child(4) {
+        order: 3;
+    }
+    .my-content-container div:nth-child(5) {
+        order: 4;
+    }
+    .my-content-container div:nth-child(6) {
+        order: 6;
+    }
+/* END my.profile.html STYLING */
+
+/* BEGIN video.html STYLING */
+    .music-sect1, .video-sect1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 25px;
+    }
+
+    .video-sect1 div:first-child {
+        order: 1;
+    }
+    .video-sect1 div:nth-child(2) {
+        order: 2;
+    }
+    .video-sect1 div:nth-child(3) {
+        order: 4;
+    }
+    .video-sect1 div:nth-child(4) {
+        order: 3;
+    }
+    .video-sect1 div:nth-child(5) {
+        order: 5;
+    }
+    .video-sect1 div:nth-child(6) {
+        order: 6;
+    }
+/* END video.html STYLING */
+
+/* BEGIN gift.cards.html STYLING */
+.gc-sect1 {
+    flex-direction: column-reverse;
+}
+
+.gc-sect1 img {
+        width: 320px;
+        max-width: 100%;
+        height: 217px;
+    }
+}
+/*END gift.cards.html STYLING */
+
+/* BEGIN contact.html STYLING */
+    .contact-sect1-headers {
+        padding: 15px 15px;
+        font-size: 25px;
+    }
+
+    .email-phone {
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+
+    .email-phone div {
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+/* END contact.html STYLING */
+
+@media all and (max-width: 375px) {
+    .logo-header p {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    
+    .top-nav a {
+        font-size: 14px;
+    }
+
+    .sect1 {
+        width: 100%;
+        max-width: 100%;
+        background: url(https://jolly-kalam-23776e.netlify.app/mytunes/img/showcase.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+    }
+
+    .sect1 div {
+        padding: 15px 15px;
+    }
+
+    .sect2 img {
+        height: 224px;
+    }
+
+/* START my.profile.html STYLING */
+    .profile-sect2 {
+        padding-left: 43px;
+    }
+
+    .profile-info {
+        column-gap: 45px;
+    }
+/*END my.profile.html STYLING */
+}
+
+@media all and (max-width: 320px) {
+/* START DEFAULT STYLING */
+    h1 {
+        font-size: 21px;
+    }
+/* END DEFAULT STYLING */
+
+/* START index.html STYLING */
+    .sect2 img {
+        height: 192px;
+    }
+/* END index.html STYLING */
+
+/* START my.profile.html STYLING */
+    .profile-sect2 {
+        padding-left: 20px;
+    }
+/* END my.profile.html STYLING */
+
+/* START video.html STYLING */
+    .video-sect1 {
+        padding: 15px;
+        font-size: 15px;
+    }
+
+    .video-sect1 p {
+        line-height: 25px;
+        margin-top: 0px;
+    }
+/* END video.html STYLING */
+}
+
+/*END MEDIA QUERIES */
