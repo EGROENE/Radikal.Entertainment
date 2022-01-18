@@ -1,0 +1,834 @@
+/* START min-width: 2560px */
+@media (min-width: 2560px) {
+    /* START DEFAULT STYLING */
+    .header-nav a {
+        font-size: xxx-large;
+    }
+
+    #top-nav div {
+        font-size: 70px;
+    }
+
+    .centered-page-headers header {
+        font-size: 80px;
+        line-height: 80px;
+    }
+
+    h1 {
+        padding: 20px;
+        font-size: 120px;
+    }
+
+    footer header {
+        font-size: 60px;
+    }
+
+    footer a {
+        font-size: 40px;
+    }
+
+    .copyright-footer p {
+        font-size: xxx-large;
+    }
+    /* START DEFAULT STYLING */
+
+    /* START index.html STYLING */
+    .sect1 h2 {
+        font-size: 60px;
+    }
+
+    .sect1 p {
+        font-size: 56px;
+        line-height: 100px;
+    }
+
+    .sect2 div,
+    .sect3 div {
+        font-size: 100px;
+    }
+
+    .sect2 header, 
+    .sect3 header, 
+    .sect4 header {
+        font-size: 100px;
+    }
+
+    .sect2 p, 
+    .sect3 p, 
+    .sect4 p {
+        font-size: 67px;
+        line-height: 95px;
+    }
+    
+    .sect2 button, 
+    .sect3 button {
+        padding: 30px 20px;
+        font-size: 60px;
+    }
+
+
+    /* END index.html STYLING */
+
+    /* START contact.html STYLING */
+    .email-phone {
+        font-size: xxx-large;
+    }
+
+    .social-icons i {
+        font-size: 60px;
+    }
+
+    .contact-sect1-parts form label {
+        font-size: xxx-large;
+    }
+
+    .contact-sect1-parts form input {
+        padding: 10px;
+        font-size: xx-large;
+    }
+
+    select {
+        font-family: 'PT Sans', sans-serif;
+        font-size: xxx-large;
+    }
+    
+    .sub-yes-no header,
+    .plan-type header {
+        margin-right: 15px;
+        font-size: xxx-large;
+    }
+
+    .contact-sect1-parts form input[type='radio'] {
+        transform: scale(2);
+        margin-right: 55px;
+    }
+
+    .contact-sect1-parts form textarea {
+        font-size: 32px;
+    }
+
+    form button {
+        font-size: xxx-large;
+    }
+    /* END contact.html STYLING */
+
+    /* START gift.cardS.html */
+    .gc-sect1 img {
+        width: 850px;
+    }
+
+    .gc-sect1 div header:first-child {
+        font-size: 80px;
+    }
+
+    .gc-sect1 p {
+        font-size: xxx-large;
+    }
+
+    .gc-sect1 form label {
+        font-size: xxx-large;
+    }
+
+    .gc-sect1 form header {
+        font-size: xxx-large;
+    }
+
+    .gc-type input[type='radio'] {
+        transform: scale(2);
+        height: 33px;
+    }
+    /* END gift.cards.html */
+
+    /* START memberships.html STYLING */
+    .memberships-sect1 header, 
+    .music-sect1 header, 
+    .video-sect1 header {
+        font-size: 85px;
+        color: var(--lightblue);
+    }
+
+    .memberships-sect1 {
+        padding: 120px;
+    }
+
+    .membership-card {
+        padding: 65px;
+    }
+
+    .membership-card p {
+        font-size: xxx-large;
+    }
+
+    .membership-card hr {
+        height: 5px;
+        background: white;
+    }
+
+    .membership-card button {
+        font-size: xxx-large;
+    }
+    /* END memberships.html STYLING */
+
+    /* START music.html & music.html STYLING */
+    .music-sect1 p,
+    .video-sect1 p {
+        line-height: 80px;
+        font-size: xxx-large;
+    }
+
+    .music-sect1 button,
+    .video-sect1 button {
+        padding: 30px;
+        font-size: xxx-large;
+    }
+    /* END music.html & music.html STYLING */
+
+    /* START my.profile.html STYLING */
+    .profile-img-name img {
+        width: 370px;
+        height: 370px;
+        border-radius: 50%;
+    }
+
+    .profile-name-text header {
+        font-size: 90px;
+    }
+
+    .profile-name-text p {
+        font-size: xxx-large;
+    }
+    
+    .change-pic-log-out-buttons {
+        width: 645px;
+    }
+
+    .profile-page-header {
+        font-size: 105px;
+    }
+    
+    .profile-info p {
+        font-size: xxx-large;
+    }
+
+    .my-content-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 50px;
+        row-gap: 75px;
+        justify-items: center;
+        align-content: center;
+        width: 100%;
+        max-width: 100%;
+        padding: 60px;
+    }
+
+    .my-content-container header {
+        font-size: 60px;
+    }
+
+    .my-content div a {
+        font-size: xxx-large;
+    }
+    
+
+    /* END my.profile.html STYLING */
+}
+/* END min-width: 2560px */
+
+/* START min-width: 1440px and max-width: 2559px STYLING */
+@media (min-width: 1440px) and (max-width: 2559px) {
+    /* START DEFAULT STYLING */
+    .header-nav a {
+        font-size: xx-large;
+    }
+
+    .centered-page-headers {
+        text-align: center;
+        font-weight: 800;
+        font-size: 55px;
+        padding: 50px 150px;
+        background: var(--lightblue);
+        font-family: 'Gochi Hand', cursive;
+        color: black;
+    }
+
+    .memberships-sect1 header,
+    .music-sect1 header,
+    .video-sect1 header {
+        font-size: 50px;
+        color: var(--lightblue);
+    }
+
+    .music-sect1 img,
+    .video-sect1 img {
+        width: 700px;
+        /* max-width: 100%; */
+    }
+
+    h1 {
+        font-size: 75px;
+    }
+
+    footer header {
+        font-size: 35px;
+        border-bottom: 1px solid white;
+        margin-bottom: 10px;
+    }
+
+    footer a {
+        font-size: 25px;
+    }
+
+    .copyright-footer p {
+        font-size: 25px;
+    }
+    /* END DEFAULT STYLING */
+
+    /* START index.html STYLING */
+    .sect1 h2 {
+        font-size: 37px;
+    }
+
+    .sect1 p {
+        font-size: 45px;
+        background-color: rgba(0,0,0,0.5);
+    }
+
+    .sect2 div, 
+    .sect3 div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 55px;
+    }
+
+    .sect2 header, 
+    .sect3 header, 
+    .sect4 header {
+        font-size: 50px;
+    }
+
+    .sect2 p, 
+    .sect3 p, 
+    .sect4 p {
+        font-size: 35px;
+        line-height: 55px;
+    }
+
+    .sect2 button,
+    .sect3 button {
+        padding: 20px 10px;
+        border-radius: 10px;
+        background-color: var(--lightblue);
+        color: black;
+        font-family: 'PT Sans', sans-serif;
+        font-size: 30px;
+    }
+    /* END index.html STYLING */
+
+    /* START contact.html STYLING */
+    .email-phone div {
+        margin-bottom: 10px;
+        margin-right: 0;
+        font-size: xx-large;
+    }
+
+    .social-icons i {
+        font-size: 35px;
+        color: var(--lightblue);
+    }
+
+    form div {
+        margin-bottom: 10px;
+        font-size: x-large;
+    }
+
+    form input {
+        padding: 7px;
+    }
+
+    form select {
+        font-family: 'PT Sans', sans-serif;
+        padding: 10px;
+        font-size: x-large;
+    }
+    
+    form button {
+        font-size: x-large;
+    }
+    /* END contact.html STYLING */
+
+    /* START gift.cards.html STYLING */
+    .gc-sect1 div header:first-child {
+        font-size: 45px;
+    }
+
+    .gc-sect1 p {
+        font-size: x-large;
+    }
+
+    .gc-sect1 form label {
+        font-size: xx-large;
+    }
+
+    .gc-sect1 form header {
+        font-size: xx-large;
+    }
+
+    input[type='radio'] {
+        transform: scale(2);
+    }
+
+    /* END gift.cards.html STYLING */
+
+    /* START memberships.html STYLING */
+    .membership-card {
+        text-align: center;
+        border: 1px solid orangered;
+        box-shadow: 0 0 15px rgb(255 69 0);
+        padding: 10px;
+    }
+
+    .membership-card header {
+        font-family: 'Gochi Hand', cursive;
+        font-size: 55px;
+    }
+
+    .membership-card p {
+        font-size: 30px;
+    }
+
+    .membership-card ul li p {
+        font-size: 30px;
+    }
+
+    .membership-card button {
+        font-size: 30px;
+    }
+    /* END memberships.html STYLING */
+
+    /* BEGIN music.html & video.html STYLING */
+    .music-sect1 {
+        background: var(--gray-gradient);
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 45px;
+        padding: 90px;
+    }
+
+    .music-sect1 p,
+    .video-sect1 p {
+        line-height: 50px;
+        font-size: xx-large;
+    }
+
+    .music-sect1 button,
+    .video-sect1 button {
+        font-size: xx-large;
+    }
+    /* END music.html & video.html STYLING */
+
+    /* START my.profile.html STYLING */
+    .profile-img-name img {
+        width: 175px;
+        height: 175px;
+        border-radius: 50%;
+    }
+
+    .profile-name-text header {
+        font-size: 55px;
+    }
+
+    .profile-name-text p {
+        font-size: 25px;
+    }
+
+    .change-pic-log-out-buttons {
+        width: 325px;
+    }
+
+    .profile-page-header {
+        font-size: 70px;
+    }
+
+    .profile-info p {
+        font-size: 25px;
+    }
+
+    .my-content-container header {
+        font-size: 40px;
+    }
+
+    .my-content div a {
+        text-decoration: none;
+        color: orange;
+        font-size: x-large;
+    }
+    /* END my.profile.html STYLING */
+}
+/* END min-width: 1440px and max-width: 2559px STYLING */
+
+@media all and (max-width: 768px) {
+    /* BEGIN index.html STYLING */
+        #top-nav {
+            flex-direction: column-reverse;
+        }
+        
+        #top-nav div {
+            margin-right: 0;
+        }
+        
+        .header-nav {
+            width: 100%;
+        }
+        
+        .header-nav a:hover {
+            padding: 15px 25px
+        }
+        
+        .sect1 div {
+            padding: 100px 50px;
+        }
+    
+        .sect2 img {
+            width: 100%;
+            max-width: 100%;
+            height: 457px;    
+        }
+    /* END index.html STYLING */
+    
+    /* BEGIN my.profile.html STYLING */
+        .my-content {
+            padding-left: 50px;
+        }
+    /* END my.profile.html STYLING */
+    
+    /* BEGIN contact.html STYLING */
+        .contact-sect1-headers {
+            padding: 25px 100px;
+        }
+    
+        .contact-sect1-parts {
+            flex-direction: column;
+        }
+    
+        .email-phone {
+            width: 100%;
+            flex-direction: row;
+        }
+    
+        .email-phone div {
+            margin-bottom: 25px;
+            margin-right: 40px;
+        }
+    
+        .email-phone div:last-child {
+            margin-right: 0;
+        }
+    /* END contact.html STYLING */
+    }
+    
+    @media all and (max-width: 425px) {
+        /* START .index.html AND DEFAULT STYLING */
+        h1 {
+            font-size: 30px;
+        }
+    
+        .header-nav a {
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+    
+        .centered-page-headers {
+            padding: 25px 25px;
+        }
+    
+        .sect1 div {
+            padding: 60px 20px;
+        }
+    
+        .sect1 h2 {
+            font-size: 25px;
+        }
+    
+        .sect1 p {
+            font-size: 20px;
+        }
+    
+        .sect2 p, 
+        .sect3 p, 
+        .sect4 p {
+            font-size: 18px;
+            line-height: 35px;
+        }
+    
+        .sect2 {
+            padding: 10px 10px;
+        }
+    
+        .sect2 button, 
+        .sect3 button {
+            padding: 15px 5px;
+            border: 2px solid white;
+            border-radius: 10px;
+            background-color: var(--lightblue);
+            color: black;
+            font-family: 'PT Sans', sans-serif;
+            font-size: 15px;
+        }
+    
+        .sect2 img {
+            height: 254px;
+        }
+    
+        .sect3 {
+            padding: 10px 10px;
+        }
+    
+        .sect4 {
+            padding: 25px 25px;
+        }
+    
+        footer {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            column-gap: 25px;
+            padding: 10px;
+        }
+    
+        footer div {
+            height: 183px;
+            justify-content: start;
+        }
+    
+        footer header {
+            font-size: 17px;
+            margin-bottom: 5px;
+        }
+        /* END .index.html AND DEFAULT STYLING */
+        
+        /* START my.profile.html STYLING */
+        .profile-sect1 {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .profile-page-header {
+            display: flex;
+            align-items: center;
+            margin-right: 0;
+            font-size: 40px;
+            text-transform: uppercase;
+            font-family: 'Gochi Hand', cursive;
+            margin-top: 10px;
+        }
+    
+        .profile-sect2 {
+            flex-direction: column;
+            padding-left: 20px;
+        }
+    
+        .profile-info {
+            padding: 0px;
+            border-right: none;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            column-gap: 135px;
+            margin-bottom: 15px;
+        }
+    
+        .profile-info p {
+            display: flex;
+            flex-direction: column;
+        }
+    
+        .profile-img-name {
+            margin-left: 5px;
+        }
+    
+        .my-content {
+            padding-left: 0;
+            padding-bottom: 10px;
+        }
+    
+        .my-content-container {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    
+        .my-content-container div:nth-child(1) {
+            order: 1;
+        }
+        .my-content-container div:nth-child(2) {
+            order: 2;
+        }
+        .my-content-container div:nth-child(3) {
+            order: 5;
+        }
+        .my-content-container div:nth-child(4) {
+            order: 3;
+        }
+        .my-content-container div:nth-child(5) {
+            order: 4;
+        }
+        .my-content-container div:nth-child(6) {
+            order: 6;
+        }
+        /* END my.profile.html STYLING */
+        
+        /* BEGIN video.html STYLING */
+        .music-sect1, 
+        .video-sect1 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            row-gap: 25px;
+        }
+    
+        .video-sect1 div:first-child {
+            order: 1;
+        }
+        .video-sect1 div:nth-child(2) {
+            order: 2;
+        }
+        .video-sect1 div:nth-child(3) {
+            order: 4;
+        }
+        .video-sect1 div:nth-child(4) {
+            order: 3;
+        }
+        .video-sect1 div:nth-child(5) {
+            order: 5;
+        }
+        .video-sect1 div:nth-child(6) {
+            order: 6;
+        }
+        /* END video.html STYLING */
+    
+        /* BEGIN gift.cards.html STYLING */
+        .gc-sect1 {
+            flex-direction: column-reverse;
+        }
+        
+        .gc-sect1 img {
+                width: 320px;
+                max-width: 100%;
+                height: 217px;
+        }
+
+        /*END gift.cards.html STYLING */
+        
+        /* BEGIN contact.html STYLING */
+        .contact-sect1-headers {
+            padding: 15px 15px;
+            font-size: 25px;
+        }
+    
+        .email-phone {
+            flex-direction: column;
+            margin-bottom: 30px;
+        }
+    
+        .email-phone div {
+            margin-bottom: 10px;
+            margin-right: 0;
+        }
+        /* END contact.html STYLING */
+
+        /* START memberships.html STYLING */
+        .memberships-sect1 {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .membership-card.featured {
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+        /* END memberships.html STYLING */
+    }
+    
+    @media all and (max-width: 375px) {
+        .logo-header p {
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+        
+        .top-nav a {
+            font-size: 14px;
+        }
+    
+        .sect1 {
+            width: 100%;
+            max-width: 100%;
+            background: url(https://jolly-kalam-23776e.netlify.app/mytunes/img/showcase.jpeg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+        }
+    
+        .sect1 div {
+            padding: 15px 15px;
+        }
+    
+        .sect2 img {
+            height: 224px;
+        }
+    
+        /* START my.profile.html STYLING */
+        .profile-sect2 {
+            padding-left: 43px;
+        }
+    
+        .profile-info {
+            column-gap: 45px;
+        }
+        /*END my.profile.html STYLING */
+
+        /* START memberships.html STYLING */
+        .memberships-sect1 {
+            padding: 20px;
+        }
+        /* END memberships.html STYLING */
+    }
+    
+    @media all and (max-width: 320px) {
+    /* START DEFAULT STYLING */
+        h1 {
+            font-size: 21px;
+        }
+    /* END DEFAULT STYLING */
+    
+    /* START index.html STYLING */
+        .sect2 img {
+            height: 192px;
+        }
+    /* END index.html STYLING */
+    
+    /* START my.profile.html STYLING */
+    .profile-name-text {
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+        margin-left: 3px;
+    }
+
+        .profile-sect2 {
+            padding-left: 20px;
+        }
+    /* END my.profile.html STYLING */
+    
+    /* START video.html STYLING */
+        .video-sect1 {
+            padding: 15px;
+            font-size: 15px;
+        }
+    
+        .video-sect1 p {
+            line-height: 25px;
+            margin-top: 0px;
+        }
+    }
+    /* END video.html STYLING */
