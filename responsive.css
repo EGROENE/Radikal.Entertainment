@@ -480,6 +480,7 @@
         
         .header-nav {
             width: 94%;
+            max-width: 94%;
         }
         
         .header-nav a:hover {
