@@ -468,7 +468,78 @@
 }
 /* END min-width: 1440px and max-width: 2559px STYLING */
 
-@media all and (max-width: 768px) {
+@media screen and (max-width: 820px) {
+    /* START DEFAULT STYLING */
+    body {
+        width: 156%;
+    }
+
+    .header-nav a {
+        font-size: 30px;
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 32px;
+    }
+
+    footer header {
+        font-size: 49px;
+    }
+
+    footer a {
+        font-size: xx-large;
+    }
+
+    .copyright-footer p {
+        font-size: 40px;
+    }
+    /* END DEFAULT STYLING */
+
+    /* START index.html STYLING STYLING */
+    h1 {
+        font-size: 83px;
+    }
+
+    .sect1 h2 {
+        font-size: 45px;
+    }
+
+    .sect1 p {
+        font-size: 38px;
+        background-color: rgba(0,0,0,0.5);
+    }
+
+    .sect2 div, .sect3 div {
+        font-size: 73px;
+    }
+
+    .sect2 div h3 {
+        margin-left: 24px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .sect2 header, .sect3 header, .sect4 header {
+        font-size: 44px;
+    }
+
+    .sect2 p, .sect3 p, .sect4 p {
+        font-size: 36px;
+        line-height: 53px;
+    }
+
+    .sect2 button, .sect3 button {
+        padding: 26px 13px;
+        font-size: 32px;
+    }
+
+
+    /* END index.html STYLING STYLING */
+}
+
+@media screen and (max-width: 768px) {
     /* BEGIN index.html STYLING */
         #top-nav {
             flex-direction: column-reverse;
@@ -750,7 +821,7 @@
         /* END memberships.html STYLING */
     }
     
-    @media all and (max-width: 375px) {
+    @media screen and (max-width: 375px) {
         .logo-header p {
             margin-top: 15px;
             margin-bottom: 15px;
@@ -795,7 +866,7 @@
         /* END memberships.html STYLING */
     }
     
-    @media all and (max-width: 320px) {
+    @media screen and (max-width: 320px) {
     /* START DEFAULT STYLING */
         h1 {
             font-size: 21px;
