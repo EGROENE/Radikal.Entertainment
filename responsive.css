@@ -469,7 +469,7 @@
 /* END min-width: 1440px and max-width: 2559px STYLING */
 
 /* START max-width: 912px & min-width: 821px STYLING */
-@media screen and (max-width: 912px)  and (min-width: 821px) {
+@media screen and (max-width: 912px) {
     /* START DEFAULT STYLING */
     body {
         width: 140%;
@@ -483,8 +483,14 @@
         font-size: 27px;
     }
 
+    footer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 32px;
+    }
+
     footer header {
-        font-size: 46px;
+        font-size: 49px;
     }
 
     footer a {
@@ -543,19 +549,7 @@
         font-size: 30px;
     }
 
-    footer {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        row-gap: 32px;
-    }
-
-    footer header {
-        font-size: 49px;
-    }
-
-    footer a {
-        font-size: xx-large;
-    }
+    
 
     .copyright-footer p {
         font-size: 40px;
