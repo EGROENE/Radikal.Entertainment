@@ -468,8 +468,8 @@
 }
 /* END min-width: 1440px and max-width: 2559px STYLING */
 
-/* START max-width: 912px) STYLING */
-@media screen and (max-width: 912px) {
+/* START max-width: 912px & min-width: 821px STYLING */
+@media screen and (max-width: 912px)  and (min-width: 821px) {
     /* START DEFAULT STYLING */
     body {
         width: 140%;
@@ -530,8 +530,10 @@
 
     /* END index.html STYLING */
 }
-/* END max-width: 912px) STYLING */
-@media screen and (max-width: 820px) {
+/* END max-width: 912px & min-width: 821px STYLING */
+
+/* START max-width: 820px & min-width: 769px) STYLING */
+@media screen and (max-width: 820px) and (min-width: 769px) {
     /* START DEFAULT STYLING */
     body {
         width: 156%;
