@@ -633,7 +633,7 @@
         }
 
         .header-nav a {
-            font-size: x-large;
+            font-size: large;
         }
         
         .header-nav a:hover {
@@ -710,7 +710,11 @@
     @media all and (max-width: 425px) {
         /* START .index.html AND DEFAULT STYLING */
         body {
-            width: 107%;
+            width: 110%;
+        }
+
+        #top-nav div {
+            font-size: 24px;
         }
 
         h1 {
