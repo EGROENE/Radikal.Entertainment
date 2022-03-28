@@ -469,7 +469,7 @@
 /* END min-width: 1440px and max-width: 2559px STYLING */
 
 /* START max-width: 912px & min-width: 821px STYLING */
-@media screen and (max-width: 912px) {
+@media screen and (max-width: 912px) and (min-width: 821px) {
     /* START DEFAULT STYLING */
     body {
         width: 140%;
@@ -549,7 +549,23 @@
         font-size: 30px;
     }
 
-    
+    footer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 32px;
+    }
+
+    footer header {
+        font-size: 49px;
+    }
+
+    footer a {
+        font-size: xx-large;
+    }
+
+    .copyright-footer p {
+        font-size: xxx-large;
+    }
 
     .copyright-footer p {
         font-size: 40px;
@@ -597,28 +613,58 @@
 
     /* END index.html STYLING STYLING */
 }
+/* END max-width: 820px & min-width: 769px) STYLING */
 
+/* START max-width: 768px STYLING */
 @media screen and (max-width: 768px) {
-    /* BEGIN index.html STYLING */
+    /* BEGIN DEFAULT STYLING */
         #top-nav {
             flex-direction: column-reverse;
         }
         
         #top-nav div {
             margin-right: 0;
+            font-size: xxx-large;
         }
         
         .header-nav {
             width: 94%;
             max-width: 95%;
         }
+
+        .header-nav a {
+            font-size: x-large;
+        }
         
         .header-nav a:hover {
             padding: 15px 25px
         }
-        
+
+        footer {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            row-gap: 32px;
+        }
+    
+        footer header {
+            font-size: 35px;
+        }
+    
+        footer a {
+            font-size: 20px;
+        }
+    
+        .copyright-footer p {
+            font-size: 16px;
+        }
+    /* END DEFAULT STYLING */
+    /* START index.html STYLING */    
         .sect1 div {
             padding: 100px 50px;
+        }
+
+        .sect1 p {
+            line-height: 45px;
         }
     
         .sect2 img {
@@ -658,9 +704,15 @@
         }
     /* END contact.html STYLING */
     }
+    /* END max-width: 768px STYLING */
     
+    /* START max-width: 425px STYLING */
     @media all and (max-width: 425px) {
         /* START .index.html AND DEFAULT STYLING */
+        body {
+            width: 107%;
+        }
+
         h1 {
             font-size: 30px;
         }
@@ -725,7 +777,7 @@
             grid-template-columns: repeat(2, 1fr);
             grid-template-rows: repeat(2, 1fr);
             column-gap: 25px;
-            padding: 10px;
+            padding: 85px 16px;
         }
     
         footer div {
@@ -734,7 +786,7 @@
         }
     
         footer header {
-            font-size: 17px;
+            font-size: 24px;
             margin-bottom: 5px;
         }
         /* END .index.html AND DEFAULT STYLING */
@@ -879,8 +931,14 @@
         }
         /* END memberships.html STYLING */
     }
-    
+    /* END max-width: 425px STYLING */
+
+    /* START max-width: 375px STYLING */
     @media screen and (max-width: 375px) {
+        body {
+            width: 121%;
+        }
+
         .logo-header p {
             margin-top: 15px;
             margin-bottom: 15px;
@@ -924,9 +982,15 @@
         }
         /* END memberships.html STYLING */
     }
+    /* END max-width: 375px STYLING */
     
+    /* START max-width: 320px STYLING */
     @media screen and (max-width: 320px) {
     /* START DEFAULT STYLING */
+        body {
+            width: 141%;
+        }    
+
         h1 {
             font-size: 21px;
         }
@@ -963,3 +1027,29 @@
         }
     }
     /* END video.html STYLING */
+/* END max-width: 320px STYLING */
+
+/* START max-width: 280px STYLING */
+@media screen and (max-width: 280px) {
+    .header-nav a {
+        font-size: 20px;
+    }
+
+    footer {
+        padding: 46px 10px;
+    }
+
+    footer header {
+        font-size: 23px;
+        margin-bottom: 5px;
+    }
+
+    footer a {
+        font-size: 20px;
+    }
+
+    .copyright-footer p {
+        font-size: larger;
+    }
+}
+/* END max-width: 280px STYLING */
